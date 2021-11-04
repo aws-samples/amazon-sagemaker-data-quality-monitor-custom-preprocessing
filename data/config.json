@@ -1,0 +1,28 @@
+{
+	"config": [{
+			"source": "Day Calls",
+			"function_name": "random_gaussian",
+			"params": [100, 100]
+		},
+		{
+			"source": "Day Mins",
+			"function_name": "random_gaussian",
+			"params": [100, 100]
+		},
+		{
+			"source": "Account Length",
+			"function_name": "random_int",
+			"params": [0, 1000]
+		},
+		{
+			"source": "VMail Message",
+			"function_name": "random_int",
+			"params": [0, 10000]
+		},
+		{
+			"source": "State_AK",
+			"function_name": "random_bit",
+			"params": []
+		}
+	]
+}
