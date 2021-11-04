@@ -110,7 +110,6 @@ The below is a sample payload which is used to invoke a real-time endpoint.
 	"CustServ Calls": "8",
 	"State_AK": "0",
 	"State_AL": "0",
-    ...omitted
 	"Area Code_877": "0",
 	"Area Code_878": "0",
 	"Int'l Plan_no": "1",
@@ -143,7 +142,6 @@ The sample data capture file for the above inference invocation is shown below.
 			"observedContentType": "application/json",
 			"mode": "INPUT",
 			"data": "{\"Account Length\": \"134\", \"VMail Message\": \"500\", \"Day Mins\": \"2.5553671354794947\", \"Day Calls\": \"2\", \"Eve Mins\": \"0.1370484071345021\", \"Eve Calls\": \"3\", \"Night Mins\": \"5.550331656408224\", \"Night Calls\": \"300\", \"Intl Mins\": \"7.097685494397488\", \"Intl Calls\": \"7\", \"CustServ Calls\": \"8\", \"State_AK\": \"0\", \"State_AL\": \"0\",
-            ...omitted
             \"Area Code_877\": \"0\", \"Area Code_878\": \"0\", \"Int'l Plan_no\": \"1\", \"Int'l Plan_yes\": \"0\", \"VMail Plan_no\": \"0\", \"VMail Plan_yes\": \"1\"}",
 			"encoding": "JSON"
 		},
